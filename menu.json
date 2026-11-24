@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "id": "soups",
+      "name": { "ua": "Супи", "en": "Soups" },
+      "items": [
+        {
+          "name": { "ua": "Борщ з пампушками", "en": "Borscht with garlic buns" },
+          "description": { "ua": "Класичний борщ зі сметаною", "en": "Classic beetroot soup with sour cream" },
+          "price": 120,
+          "weight": "300 г",
+          "allergens": ["глютен", "молоко"],
+          "glutenFree": false,
+          "vegan": false,
+          "photo": "",
+          "stop": false
+        },
+        {
+          "name": { "ua": "Крем-суп із гарбуза", "en": "Pumpkin cream soup" },
+          "description": { "ua": "З кокосовим молоком і насінням", "en": "With coconut milk and seeds" },
+          "price": 110,
+          "weight": "280 г",
+          "allergens": [],
+          "glutenFree": true,
+          "vegan": true,
+          "photo": "",
+          "stop": true
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": { "ua": "Основні страви", "en": "Main dishes" },
+      "items": [
+        {
+          "name": { "ua": "Вареники з картоплею", "en": "Potato dumplings" },
+          "description": { "ua": "З цибулею та шкварками", "en": "With fried onion and crackling" },
+          "price": 135,
+          "weight": "250 г",
+          "allergens": ["глютен", "яйця"],
+          "glutenFree": false,
+          "vegan": false,
+          "photo": "",
+          "stop": false
+        }
+      ]
+    }
+  ]
+}

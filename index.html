@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кухня на Подоле — меню</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Кухня на Подоле</h1>
+    <div class="lang">
+      <button id="lang-ua" class="active">UA</button>
+      <button id="lang-en">EN</button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Пошук">
+    <label><input id="f-gf" type="checkbox"> <span id="t-gf">Без глютену</span></label>
+    <label><input id="f-vegan" type="checkbox"> <span id="t-vegan">Веганське</span></label>
+  </div>
+
+  <nav id="tabs" class="tabs"></nav>
+
+  <main id="menu"></main>
+
+  <footer class="actions">
+    <a id="btn-waiter" href="https://t.me/your_cafe_waiter" target="_blank" rel="noopener">Покликати офіціанта</a>
+    <a id="btn-map" href="https://maps.google.com/?q=Київ,+Подол" target="_blank" rel="noopener">Як дістатися</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
